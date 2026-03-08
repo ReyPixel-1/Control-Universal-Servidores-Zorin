@@ -41,9 +41,9 @@ Acceso Directo (Opcional): Puedes crear un lanzador .desktop que apunte a bash -
 📥Crea el Lanzador con un solo comando:
 Copia y pega todo este comando en tu terminal para crear el acceso directo automáticamente si guerdaste el script en la 📥 Instalación Rápida
 
-Bash
+```bash
 mkdir -p ~/.local/share/applications/"mis apps" && echo -e '[Desktop Entry]\nName=Control de Servidores\nComment=Gestionar Immich, Nextcloud y Jellyfin\nExec=bash -c "$HOME/scripts/control_universal.sh"\nIcon=preferences-system-network\nTerminal=false\nType=Application' > ~/.local/share/applications/"mis apps"/control-servidores.desktop && chmod +x ~/.local/share/applications/"mis apps"/control-servidores.desktop
-
+```
 
 📜 Licencia
 Este proyecto es de uso libre para la comunidad bajo la Licencia MIT.
