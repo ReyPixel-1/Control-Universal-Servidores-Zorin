@@ -25,15 +25,21 @@ Próximamente: Soporte para Sunshine.
 Para que el acceso directo y el script funcionen siempre, sigue estos pasos:
 
 Instala la dependencia:
+```
 sudo apt install yad
+```
 
 Crea la carpeta de scripts en tu carpeta personal:
+```
 mkdir -p ~/scripts
+```
 
 Guarda el archivo: Descarga control_universal.sh y colócalo dentro de esa carpeta (~/scripts/).
 
 Permisos de ejecución:
+```
 chmod +x ~/scripts/control_universal.sh
+```
 
 Acceso Directo (Opcional): Puedes crear un lanzador .desktop que apunte a bash -c "$HOME/scripts/control_universal.sh".
 
